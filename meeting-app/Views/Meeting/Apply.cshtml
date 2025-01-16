@@ -1,0 +1,31 @@
+@model UserInfo;
+@{
+    ViewBag.Title = "Toplanti Kayit ";
+    Layout = "_Layout";
+   
+}
+<h1>Toplanti kayit formu</h1>
+<form method="post" action="/meeting/apply"  novalidate>
+    <div  asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Name">Name :</label>
+        <input class="form-control" asp-for="Name">
+    </div>
+      <div class="mb-3">
+        <label class="form-label" asp-for="Phone">Phone :</label>
+        <input class="form-control" asp-for="Phone">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Email">Email :</label>
+        <input class="form-control" asp-for="Email">
+    </div>
+       <div class="mb-3">
+        <label class="form-label" asp-for="WillAttend">WillAttend :</label>
+        <select class="form-select" asp-for="WillAttend">
+            <option value=true>Evet , geliyorum</option>
+            <option value=false>Hayır , gelmiyorum</option>
+        </select>
+    </div>
+    <button class="btn btn-primary p-2" type="submit">Kaydet</button>
+
+</form>

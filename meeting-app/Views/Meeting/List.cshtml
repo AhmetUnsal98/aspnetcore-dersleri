@@ -1,0 +1,32 @@
+@using meeting_app.Models;
+@model List<UserInfo>;
+@{
+    ViewBag.Title = "Toplanti Katilim Bilgisi ";
+    Layout = "_Layout";
+   
+}
+<h1>Toplanti katilim bilgisi</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Katilim Durumu</td>
+            <td>Detay</td>
+        </tr>
+    </thead>
+<tbody>
+
+    @foreach(var user in Model) {
+    var classname = user.WillAttend == true ? "table-success":"table-danger";
+    <tr class="@classname">
+        <td>@user.Name</td>
+         <td>@user.Email</td>
+          <td>@user.WillAttend</td>
+            <td><a class="btn btn-danger text-center text-white" asp-controller="meeting" asp-action="details" asp-route-id="@user.Id">Detay</a></td>
+    </tr>
+    }
+
+   
+</tbody>
+</table>

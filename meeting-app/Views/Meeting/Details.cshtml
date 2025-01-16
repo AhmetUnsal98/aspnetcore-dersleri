@@ -1,0 +1,17 @@
+@using meeting_app.Models;
+@model UserInfo;
+@{
+    Layout ="_Layout";
+}
+
+<main class="text-center">
+    <h1 class="h4">Başvuru Detayi</h4>
+    <p>Name : @Model.Name</p>
+        <p>Phone :  @Model.Phone</p>
+            <p>Email :  @Model.Email</p>
+                @if(Model.WillAttend) {
+                    <span class="badge text-bg-success">Katiliyor</span>
+                }else {
+                    <span class="badge text-bg-danger">Katilimiyor</span>
+                }         
+</main>

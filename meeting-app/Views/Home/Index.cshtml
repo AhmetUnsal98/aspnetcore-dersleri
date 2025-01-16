@@ -1,0 +1,26 @@
+
+@model MeetingInfo;
+@{
+    ViewBag.Title = "Başvurular Anasayfa";
+    Layout = "_LayoutSecond";
+}
+<h1>@ViewBag.greetings @ViewBag.userName</h1>
+<h2>Toplanti katilim durumunuzu bildirin</h2>
+
+
+<div class="card my-2">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            @Model.Location
+        </li>
+          <li class="list-group-item">
+            @Model.Date
+        </li>
+    <li class="list-group-item">
+            @Model.NumberOfPeople
+        </li>
+            </div>
+<a class="btn btn-sm p-2 btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Başvuru yap</a>
+
+
+</div>

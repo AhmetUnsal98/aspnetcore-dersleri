@@ -1,0 +1,16 @@
+@model List<Course>;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Course List</h1>
+    @foreach(var course in Model) {
+        <a asp-controller="Course" asp-action="Details" asp-route-id="@course.Id">@course.Title</a>
+        <h3>@course.Description</h3>
+    }
+</body>
+</html>

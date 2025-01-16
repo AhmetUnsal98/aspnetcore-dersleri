@@ -1,0 +1,21 @@
+@using meeting_app.Models;
+@model UserInfo;
+@{
+    ViewBag.Title = "Toplanti Özet ";
+    Layout = "_Layout";
+   
+}
+
+
+<main class="text-center">
+
+<h6>Başvuru Durumu :</h6> @if(Model.WillAttend == true) {
+ <p>Toplantiya sizinle birlikte @ViewBag.userCount kişi katiliyor</p>
+}else {
+    <p>Toplantiya katilmiyorsunuz.</p>
+}
+<a class="btn btn-primary p-2" asp-controller="meeting" asp-action="list">Katilimcilari Listele</a>
+
+
+</main>
+
