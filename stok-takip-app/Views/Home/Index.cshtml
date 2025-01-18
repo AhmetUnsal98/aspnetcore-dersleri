@@ -1,0 +1,63 @@
+﻿
+@model ProductViewModel;
+
+
+<main>
+    <div class="card">       
+<form asp-action="Index" method="GET">
+    <div class="container m-2">
+        <div class="row">
+            <div class="col-md-11">
+<select class="form-select" name="category" asp-items="@(new SelectList(Model.Categories ?? new List<Category>(), "CategoryId", "CategoryName", Model.SelectedCategory))">
+    <option value="">Tüm Kategoriler</option>
+</select>
+
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-primary">Filtrele</button>
+            </div>
+        </div>
+    </div>
+</form>
+    
+    </div>
+
+
+
+
+    <table class="table table-bordered table-striped">
+
+   @if (Model.Products != null && Model.Products.Any())
+{
+    <thead>
+        <tr>
+            <th style="width: 110px;">@Html.DisplayNameFor(model => model.Products[0].Image)</th>
+            <th>@Html.DisplayNameFor(model => model.Products[0].Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Products[0].Price)</th>
+            <th>@Html.DisplayNameFor(model => model.Products[0].IsActive)</th>
+            <th>#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td><img src="~/img/@product.Image" class="img-fluid"></td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.IsActive</td>
+                <td>
+                    <a class="btn btn-primary p-2 m-2">Edit</a>
+                    <a class="btn btn-danger p-2 m-2">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+}
+else
+{
+    <p>No products available.</p>
+}
+</table>
+
+</main>
