@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Desktop\\aspnetcore-dersleri\\stok-takip-app\\wwwroot\\img\\bfc2470d-e5c7-4afb-a5f3-b98e42befb49.jpg",
+      "PackagePath": "staticwebassets\\img\\bfc2470d-e5c7-4afb-a5f3-b98e42befb49.jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Desktop\\aspnetcore-dersleri\\stok-takip-app\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

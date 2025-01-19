@@ -25,3 +25,4 @@ C:\Users\Administrator\Desktop\aspnetcore-dersleri\meeting-app\obj\Debug\net8.0\
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\meeting-app\obj\Debug\net8.0\ref\meeting-app.dll
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\meeting-app\obj\Debug\net8.0\meeting-app.RazorAssemblyInfo.cache
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\meeting-app\obj\Debug\net8.0\meeting-app.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\aspnetcore-dersleri\meeting-app\obj\Debug\net8.0\meeting-app.sourcelink.json

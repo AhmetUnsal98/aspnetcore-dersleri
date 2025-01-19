@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zwLRABJW8LChizn2v1+yBRbKtc5kbZuwxxp1nhTjNDk=",
+  "Hash": "vZ0pkS1qsOmRaySwYmk76ZX7C/kSPiPWv21/DxSqyeE=",
   "Source": "stok-takip-app",
   "BasePath": "_content/stok-takip-app",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Desktop\\aspnetcore-dersleri\\stok-takip-app\\wwwroot\\img\\bfc2470d-e5c7-4afb-a5f3-b98e42befb49.jpg",
+      "SourceId": "stok-takip-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Desktop\\aspnetcore-dersleri\\stok-takip-app\\wwwroot\\",
+      "BasePath": "_content/stok-takip-app",
+      "RelativePath": "img/bfc2470d-e5c7-4afb-a5f3-b98e42befb49.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bfc2470d-e5c7-4afb-a5f3-b98e42befb49.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Desktop\\aspnetcore-dersleri\\stok-takip-app\\wwwroot\\js\\site.js",

@@ -47,8 +47,8 @@
                 <td>@product.Price</td>
                 <td>@product.IsActive</td>
                 <td>
-                    <a class="btn btn-primary p-2 m-2">Edit</a>
-                    <a class="btn btn-danger p-2 m-2">Delete</a>
+                    <a href="/home/edit/@product.ProductId" class="btn btn-primary p-2 m-2">Edit</a>
+                   <a href="/Home/Delete/@product.ProductId" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("stok-takip-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb035e1fea4e4078f3732704378852abf15d5af7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3dad79babe146bf459e7c74404ed27a3cdbb13d")]
 [assembly: System.Reflection.AssemblyProductAttribute("stok-takip-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("stok-takip-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

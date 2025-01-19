@@ -28,3 +28,4 @@ C:\Users\Administrator\Desktop\aspnetcore-dersleri\aspnetcore-basics\obj\Debug\n
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\aspnetcore-basics\obj\Debug\net8.0\aspnetcore-basics.pdb
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\aspnetcore-basics\obj\Debug\net8.0\aspnetcore-basics.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\aspnetcore-dersleri\aspnetcore-basics\obj\Debug\net8.0\ref\aspnetcore-basics.dll
+C:\Users\Administrator\Desktop\aspnetcore-dersleri\aspnetcore-basics\obj\Debug\net8.0\aspnetcore-basics.sourcelink.json
